@@ -1,0 +1,137 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	margin: 0;
+	background-color: #FFFFFF;
+	color: #0868B2;
+}
+
+h2 {
+	color: #B29882;
+}
+
+.main {
+	margin:10px;
+}
+
+.logo {
+	height: 300px;
+	background-image: url("businessman-confused-questionwith-question-marks-260nw-1537186871.webp");
+	background-position: left center;
+	text-align: center;
+}
+
+.logo h1 {
+	padding-top: 70px;
+	color: #000000;
+}
+
+.links {
+	background-color: #000000;
+	padding:10px;
+}
+
+.links-right{
+    float: right;
+}
+
+.button {
+	float: left;
+	margin-right: 10px;
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: #EEEEEE;
+	color: #333333;
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+}
+
+.submit_button{
+    float: left;
+	margin-right: 10px;
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: #CCDAEC;
+	color: #333333;
+	padding: 10px 6px 10px 6px;
+	border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+    
+}
+
+.link {
+	float: right;
+	margin-right: 5px;
+	font: bold 11px Arial;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.clearBoth {
+	clear: both;
+}
+ table {border-collapse: collapse; font-family: helvetica}
+td, th {border:  1px solid;
+      padding: 10px;
+      min-width: 200px;
+      background: white;
+      box-sizing: border-box;
+      text-align: left;
+}
+.table-container {
+  position: relative;
+  max-height:  300px;
+  width: 500px;
+  overflow: scroll;
+}
+
+thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: hsl(20, 50%, 70%);
+}
+
+thead th:first-child {
+  left: 0;
+  z-index: 3;
+}
+
+tfoot {
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: 2;
+}
+
+tfoot td {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  background: hsl(20, 50%, 70%);
+}
+
+tfoot td:first-child {
+  z-index: 3;
+}
+
+tbody {
+  overflow: scroll;
+  height: 200px;
+}
+
+/* MAKE LEFT COLUMN FIXEZ */
+tr > :first-child {
+  position: -webkit-sticky;
+  position: sticky; 
+  background: hsl(180, 50%, 70%);
+  left: 0; 
+}
+/* don't do this */
+tr > :first-child {
+  box-shadow: inset 0px 1px black;
+}
